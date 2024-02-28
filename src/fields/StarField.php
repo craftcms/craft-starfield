@@ -79,7 +79,7 @@ class StarField extends Field implements PreviewableFieldInterface, SortableFiel
     /**
      * @inheritDoc
      */
-    public function getTableAttributeHtml(mixed $value, ElementInterface $element): string
+    public function getPreviewHtml(mixed $value, ElementInterface $element): string
     {
         $result = '';
         if ($value <= 0) return '-';
