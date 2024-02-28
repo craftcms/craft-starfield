@@ -1,7 +1,7 @@
 {
   "name": "oberon/starfield",
   "description": "This plugin adds a star rating field type to Craft CMS.",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "type": "craft-plugin",
   "keywords": [
     "html",
@@ -25,8 +25,8 @@
     "docs": "https://github.com/oberonamsterdam/craft-starfield"
   },
   "require": {
-    "craftcms/cms": "^4.0.0-alpha.1",
-    "php": "^8.0.2"
+    "craftcms/cms": "^5.0.0-beta.3",
+    "php": "^8.2"
   },
   "autoload": {
     "psr-4": {
